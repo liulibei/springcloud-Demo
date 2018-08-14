@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 public class ConfigBean {
 
     /**
-     * 定义 负载均衡的算法
+     * 定义 负载均衡的算法，feign底层封装ribbo,所以对ribbo的负载均衡算法可以修改
      * @return
      */
     @Bean

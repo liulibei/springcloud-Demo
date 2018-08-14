@@ -14,7 +14,7 @@ public class DeptController_Consumer {
     private RestTemplate restTemplate;
 
 //    private static final String REST_URL_PREFIX = "http://localhost:8001";
-    private static final String REST_URL_PREFIX = "http://springcloud-dept";
+    private static final String REST_URL_PREFIX = "http://springcloud-dept";//通过微服务的名称调用
 
     @PostMapping(value = "/consumer/dept/add")
     public boolean add(Dept dept) {

@@ -9,7 +9,7 @@ import org.springframework.web.client.RestTemplate;
 public class ConfigBean {
 
     @Bean
-    @LoadBalanced
+    @LoadBalanced //ribbo 负载均衡注解
     public RestTemplate getRestTemplate(){
         return new RestTemplate();
     }
