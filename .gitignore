@@ -8,3 +8,12 @@
 out
 gen
 .idea/workspace.xml
+/springcloud-provider-dept-8003/target/
+/springcloud-provider-dept-8002/target/
+/springcloud-provider-dept-8001/target/
+/springcloud-eureka-dept-7003/target/
+/springcloud-eureka-dept-7002/target/
+/springcloud-eureka-dept-7001/target/
+/springcloud-cousumer-dept-feign/target/
+/springcloud-cousumer-dept-80/target/
+/springcloud-api/target/
