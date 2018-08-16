@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 
 import java.util.List;
-//定义feign 负载均衡的客户端 value：微服务的名字
-@FeignClient(value = "SPRINGCLOUD-DEPT")
+//定义feign 负载均衡的客户端 value：微服务的名字  fallbackFactory:定义 消费者端的 Fallback处理
+@FeignClient(value = "SPRINGCLOUD-DEPT",fallbackFactory = DeptClientServiceFallbackFactory.class)
 public interface DeptClientService {
 
     @PostMapping(value = "/dept/add")
