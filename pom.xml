@@ -76,6 +76,7 @@
         <module>springcloud-provider-dept-8002</module>
         <module>springcloud-provider-dept-8003</module>
         <module>springcloud-cousumer-dept-feign</module>
+        <module>springcloud-provider-dept-hystrix</module>
     </modules>
     <!--  -->
     <build>

@@ -3,13 +3,14 @@ package club.facemash.springcloud.service.impl;
 import club.facemash.springcloud.dao.DeptDao;
 import club.facemash.springcloud.entities.Dept;
 import club.facemash.springcloud.service.DeptClientService;
+import club.facemash.springcloud.service.DeptService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
-public class DeptServiceImpl implements DeptClientService {
+public class DeptServiceImpl implements DeptService {
 
     @Autowired
     private DeptDao dao;

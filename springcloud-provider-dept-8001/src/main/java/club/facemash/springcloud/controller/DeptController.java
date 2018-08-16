@@ -1,7 +1,7 @@
 package club.facemash.springcloud.controller;
 
-import club.facemash.springcloud.service.DeptClientService;
 import club.facemash.springcloud.entities.Dept;
+import club.facemash.springcloud.service.DeptService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
@@ -13,7 +13,7 @@ import java.util.List;
 public class DeptController {
 
     @Autowired
-    private DeptClientService deptService;
+    private DeptService deptService;
 
     @Autowired
     private DiscoveryClient client;
