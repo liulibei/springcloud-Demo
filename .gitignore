@@ -17,3 +17,4 @@ gen
 /springcloud-cousumer-dept-feign/target/
 /springcloud-cousumer-dept-80/target/
 /springcloud-api/target/
+/springcloud-cousumer-hystrix-dashbord/
