@@ -33,7 +33,7 @@
         <!-- ribbo进行负载均衡 -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-ribbo</artifactId>
+            <artifactId>spring-cloud-starter-ribbon</artifactId>
         </dependency>
         <!-- 修改后立即生效，热部署 -->
         <dependency>
